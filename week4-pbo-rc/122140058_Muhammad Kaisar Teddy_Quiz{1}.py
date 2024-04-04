@@ -63,7 +63,7 @@ def play_game():
             print(f"\n========================================================\n")
             open_cell(board, revealed, row, col)
             print_board(board, revealed)
-            
+            print(f"========================================================\n")
             break
         else:
             print("Well, there's no bomb here. Congrats!")
